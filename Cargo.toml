@@ -1,5 +1,5 @@
 [package]
-name = "rust-utils"
+name = "easy-utils"
 version = "0.0.1"
 authors = ["JasonkayZK <jasonkayzk@gmail.com>"]
 license = "MIT"
