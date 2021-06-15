@@ -1,9 +1,21 @@
 [package]
 name = "rust-utils"
-version = "0.1.0"
-authors = ["JasonkayZK <271226192@qq.com>"]
+version = "0.0.1"
+authors = ["JasonkayZK <jasonkayzk@gmail.com>"]
+license = "MIT"
 edition = "2018"
+readme = "README.md"
+repository = "https://github.com/JasonkayZK/rust-utils"
+homepage = "https://github.com/JasonkayZK/rust-utils"
+description = """
+Multiple utils written in rust.
+"""
+keywords = ["utils", "random"]
+categories = ["algorithms", "no-std"]
+autobenches = true
+include = ["src/", "LICENSE", "README.md"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "0.8.3"
